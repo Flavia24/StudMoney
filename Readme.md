@@ -1,8 +1,10 @@
 # How to start
 
 - Install pipenv 
-- `pipenv shell`
-- `pipenv install`
+pip install pipenv
+python -m pipenv shell
+python -m pipenv install
+
 
 # Official quickstart
 ## Create the project directory
@@ -22,3 +24,5 @@ django-admin startproject tutorial .  # Note the trailing '.' character
 cd tutorial
 django-admin startapp quickstart
 cd ..
+
+python manage.py runserver
