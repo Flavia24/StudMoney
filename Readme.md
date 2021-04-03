@@ -1,6 +1,6 @@
 # How to start
 
-- Install pipenv (i don't really know how)
+- Install pipenv 
 - `pipenv shell`
 - `pipenv install`
 
